@@ -12,3 +12,5 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.oplus-libperfmgr
 
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
