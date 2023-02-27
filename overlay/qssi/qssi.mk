@@ -9,7 +9,7 @@ PRODUCT_PACKAGES += \
     OPlusWifiResCommon \
     SystemUIResCommon \
     TelephonyResCommon \
-    WifiResCommon
+    WifiResTarget
 
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
