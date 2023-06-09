@@ -11,5 +11,10 @@ type vendor_hal_performance_hwservice, hwservice_manager_type, protected_hwservi
 # Sensors
 type vendor_hal_oplusSensor_hwservice, hwservice_manager_type, protected_hwservice;
 
+
 # Dolby
 type hal_dms_hwservice, hwservice_manager_type;
+
+# Osense
+type vendor_hal_osense_hwservice, hwservice_manager_type, protected_hwservice;
+
