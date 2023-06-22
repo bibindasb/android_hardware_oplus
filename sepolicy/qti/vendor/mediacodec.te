@@ -1,2 +1,4 @@
 allow mediacodec hal_dms_hwservice:hwservice_manager find;
 allow mediacodec hal_dms_default:binder { call transfer };
+allow mediacodec vendor_hal_dms_hwservice:hwservice_manager find;
+allow mediacodec vendor_hal_dms_default:binder { call transfer };

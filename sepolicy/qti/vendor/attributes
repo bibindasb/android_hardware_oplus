@@ -3,3 +3,6 @@ vendor_hal_attribute(oplusSensor)
 attribute hal_dms;
 attribute hal_dms_client;
 attribute hal_dms_server;
+vendor_hal_attribute(dms)
+vendor_hal_attribute(dmsClient)
+vendor_hal_attribute(dmsServer)
