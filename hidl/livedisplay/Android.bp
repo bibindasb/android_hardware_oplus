@@ -38,7 +38,6 @@ cc_binary {
         ":vendor.lineage.livedisplay@2.0-sdm-pa",
         ":vendor.lineage.livedisplay@2.0-sdm-utils",
         ":vendor.lineage.livedisplay@2.1-oplus-se",
-        ":vendor.lineage.livedisplay@2.1-oplus-af",
         "service.cpp",
     ],
     shared_libs: [
@@ -50,6 +49,7 @@ cc_binary {
         "vendor.lineage.livedisplay@2.1",
     ],
     header_libs: [
+        "kernel_headers.oplus",
         "vendor.lineage.livedisplay@2.0-sdm-headers",
         "vendor.lineage.livedisplay@2.1-oplus-headers",
     ],
