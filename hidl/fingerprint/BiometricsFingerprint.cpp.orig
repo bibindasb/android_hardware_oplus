@@ -104,10 +104,14 @@ Return<void> BiometricsFingerprint::onFingerDown(uint32_t x, uint32_t y, float m
 
 Return<void> BiometricsFingerprint::onFingerUp() {
     setFpPress(0);
+<<<<<<< HEAD
     if (!this->isEnrolling) {
         setDimlayerHbm(0);
     }
+||||||| parent of c1e5342 (hidl: fingerprint: Boost performance during authentication)
+=======
     mPowerService->setMode(Mode::LAUNCH, false);
+>>>>>>> c1e5342 (hidl: fingerprint: Boost performance during authentication)
     return mOplusBiometricsFingerprint->onFingerUp();
 }
 
