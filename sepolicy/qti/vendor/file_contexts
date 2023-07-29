@@ -120,6 +120,9 @@
 /(odm|vendor/odm)/bin/wlchgmonitor    u:object_r:wlchgmonitor_exec:s0
 /dev/wlchg                            u:object_r:wlchg_device:s0
 
+# Thermal
+/vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.qti   u:object_r:hal_thermal_default_exec:s0
+
 # Sys files (OPlusExtras)
 /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost                                              u:object_r:vendor_sysfs_kgsl:s0
 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps         u:object_r:sysfs_dm:s0
