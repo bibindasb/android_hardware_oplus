@@ -275,5 +275,10 @@
 
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
+  
+    <!-- Path to dash charging status file -->
+    <string name="config_DashChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/fast_charge</string>
 
+   <!-- Path to fast charging status file to detect whether an OEM fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/fast_charge</string>
 </resources>
