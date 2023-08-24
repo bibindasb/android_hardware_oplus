@@ -6,3 +6,7 @@ rw_dir_file(system_server, vendor_proc_tri_state_key)
 rw_dir_file(system_server, vendor_sysfs_battery_supply)
 rw_dir_file(system_server, vendor_sysfs_usb_supply)
 
+# Allow system_server to read Fast Charging status
+allow system_server vendor_sysfs_battery_supply:dir { search };
+allow system_server vendor_sysfs_battery_supply:file { getattr open read };
+allow system_server vendor_sysfs_battery_supply:file rw_file_perms;

@@ -11,6 +11,9 @@ oplus.fingerprint.      u:object_r:system_fingerprint_prop:s0
 oplus.optical.goodix.fp u:object_r:system_fingerprint_prop:s0
 ro.boot.flash.locked    u:object_r:exported_system_prop:s0
 
+# Sensors
+vendor.sensors.als_correction.      u:object_r:vendor_sensors_als_prop:s0
+
 # Logging
 persist.camera.assert.panic         u:object_r:exported_system_prop:s0
 persist.camera.OverrideLogLevels    u:object_r:exported_system_prop:s0
@@ -31,3 +34,4 @@ ro.build.version.svn.c    u:object_r:exported_system_prop:s0
 
 # Version
 ro.separate.soft    u:object_r:system_oplus_project_prop:s0
+
