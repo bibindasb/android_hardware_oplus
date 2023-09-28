@@ -1,1 +1,2 @@
 allow odrefresh odrefresh:capability { kill };
+allow odrefresh bluetooth_a2dp_offload_prop:file { getattr map open };
